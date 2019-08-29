@@ -1,0 +1,142 @@
+  html {
+	  font-family: sans-serif;
+	  line-height: 1.15;
+	  font-size: 62.5%;
+    box-sizing: border-box;
+    display: block;
+    text-size-adjust: 100%;
+  }
+
+  head {
+    display: none;
+  }
+
+body {
+    background-color: rgba(236, 207, 224, 0.7);
+    font-size: 1.6rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    letter-spacing: 0.008em;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    min-width: 320px;
+  }
+
+
+  .fullpage {
+    padding-bottom: 0px;
+    margin: 0px;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column; 
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .l-Wrapper {
+    width: 80%;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .l-Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-width: 544px
+    margin-top: 6.4rem;
+    margin-bottom: 3.2rem;
+    }
+
+
+  .l-Header-col {
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    }
+
+
+  h1 {
+	color: #111;
+	margin: 0.67em 0px;
+    }
+
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    color: #111;
+    line-height: 1.2;
+    font-weight: 900;
+    display: block;
+    }
+
+
+  .Title {
+  	font-family: Helvetica, Arial;
+  	font-weight: 900;
+    font-size: 42px
+  	line-height: 1.1;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	text-transform: uppercase;
+  	display: inline-block;
+  }  
+
+
+ .Title-sub {
+  	font-size: 0.34em;
+  	letter-spacing: 0.16em
+  	font-weight: 400;
+  	text-transform: none;
+  	display: block;
+  	margin-top: 1.2rem;
+  	padding-top: 1.6rem;
+  	border-top: 0.45em solid; 
+  } 
+
+
+
+
+  a:active, a:hover {
+  	outline-width: 0px; 
+  }
+
+  a {
+  	color: #333;
+  	background-color: transparent; 
+  }
+
+
+  a:hover .u-shadow {
+  	text-shadow: -4px -4px 0 azure;
+  }
+
+
+  .u-shadow {
+  	text-shadow: 4px 4px 0 #fa8072;
+  	transition: text-shadow 0.2s ease-in-out;
+  }
+
+  .l-Section {
+    margin-top: 6.4rem;
+  }
+
+  .l-Section + .l-Section{
+    position: relative;
+    border-top: 1px solid #ddd;
+  }
+
+.l-Section + .l-Section:before {
+    content: "";
+    font-size: 8vw;
+    position: absolute;
+    top: -0.1rem;
+    border-top: 0.153em solid;
+    width: 4rem;
+}
