@@ -4,14 +4,14 @@
 	  font-size: 62.5%;
     box-sizing: border-box;
     display: block;
-    text-size-adjust: 100%;
+    text-size-adjust: 90%;
   }
 
   head {
     display: none;
   }
 
-body {
+  body {
     background-color: rgba(236, 207, 224, 0.7);
     font-size: 1.6rem;
     font-family: Helvetica, Arial, sans-serif;
@@ -23,6 +23,12 @@ body {
     min-width: 320px;
   }
 
+  .image {
+    margin: auto;
+    padding: 2px;
+
+  }
+
 
   .fullpage {
     padding-bottom: 0px;
@@ -30,13 +36,15 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    flex-direction: column; 
+    flex-direction: column;
   }
 
+  
   *, *:before, *:after {
     box-sizing: inherit;
   }
 
+  
   .l-Wrapper {
     width: 80%;
     max-width: 90rem;
@@ -62,9 +70,16 @@ body {
 
 
   h1 {
-	color: #111;
-	margin: 0.67em 0px;
+	  color: #111;
+	  margin: 0.67em 0px;
     }
+
+  h2 {
+    color: #111;
+    line-height: 1.2;
+    font-weight: 900;
+    display: block;
+    }  
 
 
   h3 {
@@ -80,7 +95,7 @@ body {
   .Title {
   	font-family: Helvetica, Arial;
   	font-weight: 900;
-    font-size: 42px
+    font-size: 45px
   	line-height: 1.1;
   	margin-top: 0;
   	margin-bottom: 0;
@@ -89,7 +104,7 @@ body {
   }  
 
 
- .Title-sub {
+  .Title-sub {
   	font-size: 0.34em;
   	letter-spacing: 0.16em
   	font-weight: 400;
@@ -106,6 +121,7 @@ body {
   a:active, a:hover {
   	outline-width: 0px; 
   }
+
 
   a {
   	color: #333;
