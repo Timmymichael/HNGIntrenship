@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 	<title>Timilehin's CV</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="formValidate.js"></script>
 </head>
 
 <body class="fullpage">
@@ -101,7 +102,6 @@
 			<ul>
 				<li>Ladoke Akintola University of Technology (2015 till date)</li>
 				<li>Ikotun Senior High School (2013)</li>
-				<li>Yek Treasureland college (2010)</li>
 			</ul>
 			</div>
 		</section>
@@ -111,7 +111,38 @@
 			<h2>REFEREES</h2>
 			<div>
 				<p>Available on request</p>
+				<hr>
 			</div>
+		</section>
+
+
+		<section>
+			<h2>Contact Me</h2>
+			<form action="./submit.html" method="post">
+			<div>
+    			<label for="name">Name:</label>
+    			<input type="text" id="name" name="user_name" placeholder="Name" required minlength="4">
+  			</div>
+  			
+  			<div>
+		    	<label for="mail">E-mail:</label>
+		    	<input type="email" id="mail" name="user_mail" placeholder="E-mail Address" required>
+  			</div>
+ 
+   			<div>
+		    	<label for="title">Title:</label>
+		    	<input type="text" id="title" name="message_title" placeholder="Message Title" required>
+  			</div>
+
+  			<div>
+		    	<label for="msg">Message:</label>
+		    	<textarea id="msg" name="user_message" required minlength="20"></textarea>
+  			</div>
+			
+			<div class="button">
+  				<button type="submit">Send your message</button>
+			</div>
+			</form>
 		</section>
 
 	</article>
