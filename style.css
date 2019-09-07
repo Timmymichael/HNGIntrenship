@@ -57,7 +57,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    min-width: 544px
+    min-width: 544px;
     margin-top: 6.4rem;
     margin-bottom: 3.2rem;
     }
@@ -95,7 +95,7 @@
   .Title {
   	font-family: Helvetica, Arial;
   	font-weight: 900;
-    font-size: 45px
+    font-size: 45px;
   	line-height: 1.1;
   	margin-top: 0;
   	margin-bottom: 0;
@@ -106,7 +106,7 @@
 
   .Title-sub {
   	font-size: 0.34em;
-  	letter-spacing: 0.16em
+  	letter-spacing: 0.16em;
   	font-weight: 400;
   	text-transform: none;
   	display: block;
